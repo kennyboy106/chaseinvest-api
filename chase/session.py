@@ -8,7 +8,7 @@ from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 from playwright_stealth import StealthConfig, stealth_sync
 
-from .urls import landing_page, login_page
+from urls import landing_page, login_page
 
 
 class ChaseSession:

@@ -2,8 +2,8 @@ from enum import Enum
 
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 
-from .session import ChaseSession
-from .urls import order_info, order_page, order_status
+from session import ChaseSession
+from urls import order_info, order_page, order_status
 
 
 class PriceType(str, Enum):

@@ -2,8 +2,8 @@ from datetime import datetime
 
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 
-from .session import ChaseSession
-from .urls import account_holdings, holdings_json, order_page
+from session import ChaseSession
+from urls import account_holdings, holdings_json, order_page
 
 
 class SymbolQuote:
